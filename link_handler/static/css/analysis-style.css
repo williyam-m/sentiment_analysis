@@ -1,6 +1,5 @@
-
 body {
-background-color: black;
+    background-color: black;
     font-family: Arial, sans-serif;
     color: red;
     background-image: url('../images/analysis.jpg');
@@ -10,124 +9,125 @@ background-color: black;
     margin: 0;
     padding: 0;
 }
+
 .navbar {
-  background-color: red;
-  border: none;
-  padding: 15px 0;
-  height: 8px;
+    background-color: red;
+    border: none;
+    padding: 15px 0;
+    height: 8px;
 }
 
 .navbar a {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 15px;
-  margin-bottom: 10px;
-  margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .navbar a:hover {
-  color: white;
+    color: white;
 }
 
 .container {
-  margin-top: 50px;
-  text-align: center;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .form-group {
-  margin: 20px auto;
-  width: 60%;
+    margin: 20px auto;
+    width: 60%;
 }
 
 .form-control {
-border-radius : 5%;
-border : none;
-  background-color: #222;
-  border: 1px solid #444;
-  color: red;
-  font-size: 14px;
-  height: 70px;
-  width: 60%;
-  text-align: center;
-  padding-left: 10px;
-  margin-bottom: 20px;
+    border-radius: 5%;
+    border: none;
+    background-color: #222;
+    border: 1px solid #444;
+    color: red;
+    font-size: 14px;
+    height: 70px;
+    width: 60%;
+    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
 }
 
 .btn-submit {
-  background-color: #444;
-  color: white;
-  border: 1px solid #555;
-  font-weight: bold;
-  font-size: 15px;
-  padding: 5px 40px;
-  border : none;
-  border-radius : 8%;
-  transition: all 0.3s ease;
-  transform: perspective(1px) translateZ(0);
+    background-color: #444;
+    color: white;
+    border: 1px solid #555;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 8%;
+    transition: all 0.3s ease;
+    transform: perspective(1px) translateZ(0);
 }
 
 .btn-submit:hover {
-  background-color: #666;
-  color: red;
-  cursor: pointer;
-  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.5);
-  transform: translateY(-5px);
+    background-color: #666;
+    color: red;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.5);
+    transform: translateY(-5px);
 }
 
 .result {
-  margin-top: 40px;
-  text-align: center;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .result-text {
-  font-weight: bold;
-  font-size: 24px;
-  color: white;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
 }
 
 .result-text.positive {
-  color: green;
+    color: green;
 }
 
 .result-text.negative {
-  color: red;
+    color: red;
 }
 
 .progress {
-  background-color: #444;
-  height: 30px;
-  width: 60%;
-  margin: 20px auto;
-  border-radius: 5px;
+    background-color: #444;
+    height: 30px;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 
 .progress-bar {
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  width: 0%;
-  transition: width 2s ease-in-out;
-  border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 0%;
+    transition: width 2s ease-in-out;
+    border-radius: 5px;
 }
 
 .progress-bar-success {
-  background-color: green;
+    background-color: green;
 }
 
 .progress-bar-danger {
-  background-color: red;
+    background-color: red;
 }
 
 @keyframes loadBar {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
 }
 
 .progress-bar {
-  animation: loadBar 2s ease-in-out;
+    animation: loadBar 2s ease-in-out;
 }
