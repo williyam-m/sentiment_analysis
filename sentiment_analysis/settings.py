@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'dashboard',
     'user',
     'web_scraper',
+    'text_handler',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
