@@ -12,7 +12,13 @@
         <div class="header-left">
             <h1>Sentiment Analysis</h1>
         </div>
-
+        <div class="header-right">
+            {% if request.user.is_anonymous %}
+            <a href="{% url 'signin' %}" class="logout-button">Signin</a>
+            {% else %}
+            <a href="{% url 'logout' %}" class="logout-button">Logout</a>
+            {% endif %}
+        </div>
     </header>
     <div class="container">
         <div align="center"><h3>Sentiment Analysis</h3></div>
