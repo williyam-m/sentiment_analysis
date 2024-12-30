@@ -1,11 +1,15 @@
-body {
-  background-color: black;
-  color: red;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
 
+body {
+background-color: black;
+    font-family: Arial, sans-serif;
+    color: red;
+    background-image: url('../images/analysis.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
 .navbar {
   background-color: red;
   border: none;
@@ -37,12 +41,14 @@ body {
 }
 
 .form-control {
+border-radius : 5%;
+border : none;
   background-color: #222;
   border: 1px solid #444;
   color: red;
-  font-size: 10px;
-  height: 60px;
-  width: 50%;
+  font-size: 14px;
+  height: 70px;
+  width: 60%;
   text-align: center;
   padding-left: 10px;
   margin-bottom: 20px;
@@ -53,9 +59,10 @@ body {
   color: white;
   border: 1px solid #555;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   padding: 5px 40px;
-  border-radius : 5%;
+  border : none;
+  border-radius : 8%;
   transition: all 0.3s ease;
   transform: perspective(1px) translateZ(0);
 }

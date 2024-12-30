@@ -9,7 +9,7 @@ body {
     padding: 0;
 }
 .header {
-    background-color: #2874f0;
+    background-color: red;
     backdrop-filter: blur(10px);
     display: flex;
     margin-left: 20px;
@@ -25,7 +25,7 @@ body {
 }
 .footer{
 margin-top:40px;
-background-color: #2874f0;
+background-color: red;
     backdrop-filter: blur(10px);
     padding: 10px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -64,7 +64,7 @@ background-color: #2874f0;
     text-decoration: none;
     color: white;
     font-size: 15px;
-    background: rgba(255, 255, 255, 0.2);
+    background: #444444;
     transition: transform 0.3s ease-in-out;
     display: flex;
     justify-content: space-between;
@@ -72,7 +72,7 @@ background-color: #2874f0;
     padding: 10px;
 }
 .link-box:hover {
-background-color: #2874f0;
+background-color: red;
 }
 .small{
     width: 50%;
