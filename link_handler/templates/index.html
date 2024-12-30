@@ -19,7 +19,7 @@
   </nav>
 
   <div class="container">
-    <form action="{% url 'text_sentiment' %}" method="post">
+    <form action="{% url 'link_sentiment' %}" method="post">
       {% csrf_token %}
       <div class="form-group">
         <input type="text" name="sentence" class="form-control" id="sentence" placeholder="Type here..." required>

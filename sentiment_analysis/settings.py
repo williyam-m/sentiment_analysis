@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'user',
     'web_scraper',
     'text_handler',
+    'link_handler',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -126,7 +127,9 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
     os.path.join(BASE_DIR, 'user', 'static'),
     os.path.join(BASE_DIR, 'dashboard', 'static'),
-os.path.join(BASE_DIR, 'analysis', 'static'),
+    os.path.join(BASE_DIR, 'analysis', 'static'),
+    os.path.join(BASE_DIR, 'link_handler', 'static'),
+    os.path.join(BASE_DIR, 'text_handler', 'static'),
 ]
 
 
