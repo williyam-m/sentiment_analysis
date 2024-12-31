@@ -1,11 +1,11 @@
-# Sentiment Analysis
+## Sentiment Analysis
 
-# Live Link : https://kyn.zeal.ninja/
+## Live Link : https://kyn.zeal.ninja/
 
 **Demo Video Link:** https://youtu.be/0UiwfRd5fiE
 
 
-> ## Step-by-Step Guide to Setting Up and Running the Application
+> ### Step-by-Step Guide to Setting Up and Running the Application
 
 1. **Clone the Repository**
    ```bash
