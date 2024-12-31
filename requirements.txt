@@ -1,0 +1,7 @@
+django
+numpy
+pandas
+torch
+transformers
+pytest
+beautifulsoup4
