@@ -26,8 +26,13 @@ SECRET_KEY = 'django-insecure-5e8rqf=8d(3gr&o(%xtqyh$^du4x=s#nh$2g(n5@qh30k7$h-i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["kyn.zeal.ninja", "www.kyn.zeal.ninja", "127.0.0.1", "localhost"]
 
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://kyn.zeal.ninja',
+    'https://www.kyn.zeal.ninja',
+]
 
 # Application definition
 
@@ -127,7 +132,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
     os.path.join(BASE_DIR, 'user', 'static'),
     os.path.join(BASE_DIR, 'dashboard', 'static'),
-    os.path.join(BASE_DIR, 'analysis', 'static'),
     os.path.join(BASE_DIR, 'link_handler', 'static'),
     os.path.join(BASE_DIR, 'text_handler', 'static'),
 ]
