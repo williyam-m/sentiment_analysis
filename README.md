@@ -1,11 +1,11 @@
-## Sentiment Analysis
+# Sentiment Analysis
 
-### Live Link : https://kyn.zeal.ninja/
+# Live Link : https://kyn.zeal.ninja/
 
 **Demo Video Link:** https://youtu.be/0UiwfRd5fiE
 
 
-> ### Step-by-Step Guide to Setting Up and Running the Application
+> ## Step-by-Step Guide to Setting Up and Running the Application
 
 1. **Clone the Repository**
    ```bash
@@ -74,13 +74,13 @@
 
 
 <p align="center">
-  <img src="static/images/website_top.png" alt="Sentiment Analysis" width="400px" height="200px"/>
-  <img src="static/images/website_bottom.png" alt="Sentiment Analysis" width="400px" height="200px"/>
+  <img src="static/images/website_top.png" alt="Sentiment Analysis" width="300px" height="180px"/>
+  <img src="static/images/website_bottom.png" alt="Sentiment Analysis" width="300px" height="180px"/>
 </p>
 
 <p align="center">
-  <img src="static/images/signin_page.png" alt="Sentiment Analysis" width="400px" height="200px"/>
-  <img src="static/images/signup_page.png" alt="Sentiment Analysis" width="400px" height="200px"/>
+  <img src="static/images/signin_page.png" alt="Sentiment Analysis" width="300px" height="180px"/>
+  <img src="static/images/signup_page.png" alt="Sentiment Analysis" width="300px" height="180px"/>
 </p>
 
 
