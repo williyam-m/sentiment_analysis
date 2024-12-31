@@ -31,6 +31,11 @@
       </div>
       <button type="submit" class="btn btn-submit">Analyze ✨</button>
     </form>
+    {% if error %}
+    <div class="result">
+        <p style="color:white">➡️ <b> {{error}}</b></p>
+    </div>
+    {% endif %}
     {% if sentiment %}
       <div class="result">
         <p style="color:white">Post Description: <b> {{content}}</b></p><br>
